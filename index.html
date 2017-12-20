@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+	
+    <title>Mario Pajunovic</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	
+	<!--Font-->
+	<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:700' rel='stylesheet' type='text/css'>
+ 
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+	<style>
+		
+		body{
+			background-color: #ffcc2f;
+			margin-top: 250px;
+		}
+		
+		.title{
+			font-family: 'Pacifico', cursive; 
+			font-size:100px; 
+			text-align:center; 
+			color: #ef5734; 
+			margin-bottom:50px;
+		}
+		
+		.description{
+			font-family: 'Ubuntu', sans-serif;
+			font-size: 50px;
+			text-align: center;
+			color: #543729;
+		}
+		
+		@media screen and (max-width: 768px) {
+			body{
+				margin-top: 40px;
+			}
+			.title{
+				font-size:50px; 
+				margin-bottom:25px;
+			}
+			
+			.description{
+				font-size: 25px;
+			}
+		}	
+	
+	</style>
+	
+  </head>
+  <body oncontextmenu="return false">
+    <div class="container">
+
+      <h1 class="title">Mario Pajunovic</h1>  
+      <h1 class="description">Coming Soon to a Browser near You! &#12483;
+</h1>
+	
+	</div>	
+
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	
+	<script language="javascript">
+		document.onmousedown=disableclick;
+		status="PRIVATE PROPERTY! :) Contact me via email:  contact@mariopajunovic.com";
+		function disableclick(event)
+		{
+		  if(event.button==2)
+		   {
+			 alert(status);
+			 return false;    
+		   }
+		}
+	</script>
+  </body>
+</html>
